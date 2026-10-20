@@ -17,7 +17,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://synapse-backend-rf1p.onrender.com',
+        target: 'https://synapse-backend-rf1p.onrender.com/',
         changeOrigin: true,
       },
     },
