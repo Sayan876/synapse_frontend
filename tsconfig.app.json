@@ -21,6 +21,9 @@
     "noUnusedParameters": false,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "strict": false,
     "paths": {
       "@/*": ["./src/*"]
