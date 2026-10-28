@@ -12,7 +12,7 @@ import type {
 import { useAuthStore } from '../store/authStore';
 
 const API_BASE_URL =
-  'https://synapse-backend-rf1p.onrender.com/api/v1';
+  'https://synapse-backend-kynf.onrender.com/api/v1';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
